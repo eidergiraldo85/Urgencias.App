@@ -1,0 +1,190 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+  color: white;
+  
+}
+li a {
+
+  color: white;
+} 
+
+ 
+
+
+.navbar-nav {
+
+color: white;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link .nav-pills .show {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+div.navbar-collapse {
+color: #fff;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+  background: rgb(199, 197, 197);
+}
+
+#pageprincipal.h2
+{
+  text-align:left;
+}
+#pageprincipal.ul.li
+{
+  text-align:left;
+}
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: rgb(49, 155, 204);
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube {
+	background: #E83028;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+@font-face {
+  font-family: "icomoon";
+  src:  url("../fonts/icomoon.eot?i226ha");
+  src:  url('../fonts/icomoon.eot?i226ha#iefix') format('embedded-opentype'),
+    
+    url('../fonts/icomoon.woff?i226ha') format('woff'),
+    url('../fonts/icomoon.svg?i226ha#icomoon') format('svg'),
+    url('../fonts/icomoon.ttf?i226ha') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\ea91";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.dropdown-toggle::after {
+  display:none;
+}
+.carousel, .carousel-inner > .item > img {
+  height: 360px;
+  width: 640px;
+}

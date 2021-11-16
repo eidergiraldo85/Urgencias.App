@@ -1,0 +1,81 @@
+﻿@page
+@model Urgencias.App.FrontEnd.Pages.EditarModel
+@{
+}<h1>Editar Paciente</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="paciente.NumeroDeDocumento">Numero de Documento</label>
+        <input asp-for="paciente.NumeroDeDocumento" class="form-control">
+        <span class="text_danger" asp-validation.for="paciente.NumeroDeDocumento"></span>
+    </div>   
+
+    <div class="form-group">
+        <label asp-for="paciente.Nombres">Nombres</label>
+        <input asp-for="paciente.Nombres" class="form-control">
+        <span class="text_danger" asp-validation.for="paciente.Nombres"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="paciente.Apellidos">Apellidos</label>
+        <input asp-for="paciente.Apellidos" class="form-control">
+        <span class="text_danger" asp-validation.for="paciente.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="paciente.EdadEnAnos">Edad en años</label>
+        <input asp-for="paciente.EdadEnAnos" class="form-control">
+        <span class="text_danger" asp-validation.for="paciente.EdadEnAnos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="paciente.Direccion">Direccion</label>
+        <input asp-for="paciente.Direccion" class="form-control">
+        <span class="text_danger" asp-validation.for="paciente.Direccion"></span> 
+    </div>
+    <p></p>
+    <div class="form-group">
+        <label asp-for="paciente.Sexo">Sexo:</label>
+        <select asp-for="paciente.Sexo" class="form-control">        
+        <option value ="M">M</option>
+        <option value ="F">F</option>  
+        <span class="text_danger" asp-validation.for="paciente.Sexo"></span> 
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="paciente.PesoEnKilogramos">Peso En Kilogramos:</label>
+        <input asp-for="paciente.PesoEnKilogramos" class="form-control">
+        <span class="text_danger" asp-validation.for="paciente.PesoEnKilogramos"></span> 
+    </div>
+    <div class="form-group">
+        <label asp-for="paciente.EstaturaEnCentimetros">Estatura En Centimetros</label>
+        <input asp-for="paciente.EstaturaEnCentimetros" class="form-control">
+        <span class="text_danger" asp-validation.for="paciente.EstaturaEnCentimetros"></span> 
+    </div>
+    <p></p>
+    <div class="form-group">
+        <label asp-for="paciente.EsFumador">Es Fumador:</label>
+        <select asp-for= "paciente.EsFumador"class="form-control">         
+        <option value ="Si">Si</option>
+        <option value ="No">No</option>  
+        <span class="text_danger" asp-validation.for="paciente.EsFumador"></span> 
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="paciente.af">Años Fumando:</label>
+        <input asp-for="paciente.af" class="form-control">
+        <span class="text_danger" asp-validation.for="paciente.af"></span> 
+    </div>
+     
+        <p>  </p>
+    <div class="form-group">
+        <label asp-for="paciente.tieneDieta">Tiene Dieta alimentaria:</label>
+        <select asp-for="paciente.tieneDieta"class="form-control">             
+            <option value ="Si">Si</option>
+            <option value ="No">No</option>       
+        <span class="text_danger" asp-validation.for="paciente.tieneDieta"></span>
+            </select>
+            
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>
+
+<script>
+

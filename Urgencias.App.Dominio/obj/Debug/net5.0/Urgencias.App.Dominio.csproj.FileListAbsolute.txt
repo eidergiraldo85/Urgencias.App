@@ -1,0 +1,15 @@
+C:\Hospital\Urgencias.App\Urgencias.App.Dominio\bin\Debug\net5.0\Urgencias.App.Dominio.deps.json
+C:\Hospital\Urgencias.App\Urgencias.App.Dominio\bin\Debug\net5.0\Urgencias.App.Dominio.dll
+C:\Hospital\Urgencias.App\Urgencias.App.Dominio\bin\Debug\net5.0\ref\Urgencias.App.Dominio.dll
+C:\Hospital\Urgencias.App\Urgencias.App.Dominio\bin\Debug\net5.0\Urgencias.App.Dominio.pdb
+C:\Hospital\Urgencias.App\Urgencias.App.Dominio\obj\Debug\net5.0\Urgencias.App.Dominio.csproj.AssemblyReference.cache
+C:\Hospital\Urgencias.App\Urgencias.App.Dominio\obj\Debug\net5.0\Urgencias.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hospital\Urgencias.App\Urgencias.App.Dominio\obj\Debug\net5.0\Urgencias.App.Dominio.AssemblyInfoInputs.cache
+C:\Hospital\Urgencias.App\Urgencias.App.Dominio\obj\Debug\net5.0\Urgencias.App.Dominio.AssemblyInfo.cs
+C:\Hospital\Urgencias.App\Urgencias.App.Dominio\obj\Debug\net5.0\Urgencias.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Hospital\Urgencias.App\Urgencias.App.Dominio\obj\Debug\net5.0\Urgencias.App.Dominio.dll
+C:\Hospital\Urgencias.App\Urgencias.App.Dominio\obj\Debug\net5.0\ref\Urgencias.App.Dominio.dll
+C:\Hospital\Urgencias.App\Urgencias.App.Dominio\obj\Debug\net5.0\Urgencias.App.Dominio.pdb
+C:\Hospital\Urgencias.App\Urgencias.App.Dominio\bin\Debug\net5.0\Urgencias.App.Dominio.runtimeconfig.json
+C:\Hospital\Urgencias.App\Urgencias.App.Dominio\bin\Debug\net5.0\Urgencias.App.Dominio.runtimeconfig.dev.json
+C:\Hospital\Urgencias.App\Urgencias.App.Dominio\obj\Debug\net5.0\Urgencias.App.Dominio.genruntimeconfig.cache

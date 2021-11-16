@@ -1,0 +1,47 @@
+﻿@page
+@model Urgencias.App.FrontEnd.Pages.PrioridadModel
+@{
+}<h1>Lista de pacientes pendientes segun riesgo</h1>
+
+ <table class="table">
+    <td><b>Numero de documento</b></td>
+            <td><b>Nombre</b></td>
+            <td><b>Apellidos</b></td>
+            <td><b>Edad</b></td>
+            <td><b>Direccion</b></td>
+            <td><b>Sexo</b></td>
+            <td><b>Peso en Kilogramos</b></td>
+            <td><b>Estatura en Centimetros</b></td>
+            <td><b>Prioridad</b></td>
+            <td><b>Riesgo</b></td>
+            <td><b>Es Fumador</b></td>
+            <td><b>Años fumando</b></td>
+            <td><b>Tiene dieta</b></td>
+            
+           @foreach(var paciente in Model.pacientes)
+    {
+           
+        <tr>
+            <td>@paciente.NumeroDeDocumento</td>
+            <td>@paciente.Nombres</td>
+            <td>@paciente.Apellidos</td>
+            <td>@paciente.EdadEnAnos</td>
+            <td>@paciente.Direccion</td> 
+            <td>@paciente.Sexo</td>
+            <td>@paciente.PesoEnKilogramos</td>
+            <td>@paciente.EstaturaEnCentimetros</td>
+            <td>@paciente.Prioridad</td>
+            <td>@paciente.Riesgo</td>
+            <td>@paciente.EsFumador</td>
+            <td>@paciente.af</td>
+            <td>@paciente.tieneDieta</td>
+     
+           <td>
+                <a class="btn btn-primary table-btn" asp-page="./Detalle" asp-route-Id="@paciente.Id">
+                <i class="btn">Atender paciente</i></a>
+            </td>
+              
+        </tr>
+    }
+</table>
+ 

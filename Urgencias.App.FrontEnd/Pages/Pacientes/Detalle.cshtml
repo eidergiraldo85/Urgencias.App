@@ -1,0 +1,62 @@
+﻿@page
+@model Urgencias.App.FrontEnd.Pages.DetalleModel
+@{
+}<h1>Informaciond de Paciente Atendido</h1>
+  <table class="table">
+        <tr>
+            <td><b>Numero de documento:</b></td>
+            <td>@Model.paciente.NumeroDeDocumento</td>
+        </tr>
+        <tr>
+            <td><b>Nombre:</b></td>
+            <td>@Model.paciente.Nombres</td>
+        </tr>
+        <tr>
+            <td><b>Apellidos:</b></td>
+            <td>@Model.paciente.Apellidos</td>
+        </tr>
+        <tr>
+            <td><b>Edad:</b></td>
+            <td>@Model.paciente.EdadEnAnos</td>
+        </tr>
+        <tr>
+             <td><b>Direccion:</b></td>
+             <td>@Model.paciente.Direccion</td>
+        </tr> 
+        <tr>
+             <td><b>Sexo:</b></td>
+             <td>@Model.paciente.Sexo</td>
+        </tr>
+        <tr>
+             <td><b>Peso:</b></td>
+             <td>@Model.paciente.PesoEnKilogramos</td>
+        </tr>
+        <tr>
+             <td><b>Estatura:</b></td>
+             <td>@Model.paciente.EstaturaEnCentimetros</td>
+        </tr>
+        <tr>
+             <td><b>Es fumador:</b></td>
+             <td>@Model.paciente.EsFumador</td>
+        </tr>
+        <tr>
+             <td><b>Años fumando:</b></td>
+             <td>@Model.paciente.af</td>
+        </tr>
+        <tr>
+             <td><b>Maneja dieta alimienticia:</b></td>
+             <td>@Model.paciente.tieneDieta</td>
+        </tr>
+         
+    </table>
+    
+     <a class="btn btn-primary table-btn" asp-area="" asp-page="/Index">
+         <i class="fas fa-home"></i>
+
+     </a>
+     
+    </table>
+    <a asp-page="./Riesgo" class="btn btn-primary">Pacientes Riesgo</a>
+    <a asp-page="./Prioridad" class="btn btn-primary">Pacientes Prioridad</a>
+ 
+
